@@ -16,6 +16,7 @@
 		DD55E8C42B48359D00218EA9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55E8C32B48359D00218EA9 /* UserViewModel.swift */; };
 		DD55E8C62B483D9D00218EA9 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = DD55E8C52B483D9C00218EA9 /* users.json */; };
 		DD55E8C82B483E3800218EA9 /* Localservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55E8C72B483E3800218EA9 /* Localservice.swift */; };
+		DD55E8CA2B483F4600218EA9 /* Networkservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55E8C92B483F4600218EA9 /* Networkservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DD55E8C32B48359D00218EA9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		DD55E8C52B483D9C00218EA9 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		DD55E8C72B483E3800218EA9 /* Localservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localservice.swift; sourceTree = "<group>"; };
+		DD55E8C92B483F4600218EA9 /* Networkservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				DD55E8C12B48336000218EA9 /* Webservice.swift */,
 				DD55E8C72B483E3800218EA9 /* Localservice.swift */,
+				DD55E8C92B483F4600218EA9 /* Networkservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD55E8CA2B483F4600218EA9 /* Networkservice.swift in Sources */,
 				DD55E8B02B482EC300218EA9 /* ContentView.swift in Sources */,
 				DD55E8C02B4832F100218EA9 /* UserModel.swift in Sources */,
 				DD55E8C22B48336000218EA9 /* Webservice.swift in Sources */,

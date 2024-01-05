@@ -15,8 +15,8 @@ enum NetworkError: Error {
 }
 
 
-class Webservice {
-
+class Webservice: Networkservice {
+    var type = "Web"
 
     func downloadData(_ resource: String) async throws -> [User] {
 

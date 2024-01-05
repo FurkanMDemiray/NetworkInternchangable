@@ -11,8 +11,8 @@ import Foundation
 
 
 
-class Localservice {
-
+class Localservice: Networkservice {
+    var type = "Local"
 
     func downloadData(_ resource: String) async throws -> [User] {
 
